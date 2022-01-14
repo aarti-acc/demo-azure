@@ -11,6 +11,8 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String message(){
+		System.out.println("hiiiiiiiiii");
+
 		return "Hey Congrats your application deployed successfully in Azure Platform!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
 	}
 	
